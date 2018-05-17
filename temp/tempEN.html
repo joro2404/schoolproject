@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title="Central West Hotel" >
+    </head>
+
+    <body>
+    <div align = "center">
+        <img src="logo.png" alt="logo" height="320" width="520">
+        <h1> New hotel in the center of Sofia<h1>
+    </div>
+    <div>
+
+    </div>
+    <div align="center">
+        <font color="red" size="6"> Coming Soon</font>
+    </div>
+    <div align="center">
+        <p>Contact us : </p>
+    </div>
+
+    <div align = "center">
+        <tr>
+            <td>contact@centralwesthotel.com</td>
+        <tr/>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>+359885747606</td>
+        </tr>
+
+    </div>
+
+    <!--Google maps -->
+
+    <div id="map" style="width:60%;height:600px;margin: 0 auto 0 auto;"></div>
+	<script>
+		function myMap() {
+  			var myCenter = new google.maps.LatLng(42.701389,23.302139);
+  			var mapCanvas = document.getElementById("map");
+  			var mapOptions = {center: myCenter, zoom: 15};
+  			var map = new google.maps.Map(mapCanvas, mapOptions);
+  			var marker = new google.maps.Marker({position:myCenter});
+  			marker.setMap(map);
+}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg1_DVFO3m_r9FJg-k0l5TqWLplhNauDc&callback=myMap"></script>
+
+
+    </body>
