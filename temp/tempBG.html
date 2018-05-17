@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div class="dropdown">
+     <div class="dropdown">
             <button class="btn btn-primary dropdown-toggle" type="button" style="background:gray" data-toggle="dropdown">Language
             <span class="caret"></span></button>
             <ul class="dropdown-menu">
@@ -16,38 +16,47 @@
                 <li><a href="./tempEN.html">English</a></li>
             </ul>
         </div>
+    <div align = "center">
+        <tr>
+            <td><img src="logo.png" alt="logo" height="320" width="520"></td>
 
-        <div align = "center">
-            <img src="logo.png" alt="logo" height="320" width="520">
-            <h1>Новия хотел в центъра на  София<h1>
-        </div>
-        <div align="center">
-            <font color="red" size="6">Очаквайте скоро</font>
-        </div>
-        <div align="center">
-            <p>Контакти : </p>
-        </div>
+        </tr>
+        <tr>
 
-        <div align = "center">
-                contact@centralwesthotel.com
-                +359885747606
-        </div>
+        </tr>
 
-        <!--Google maps -->
+        <h1>Новият хотел в центъра на  София<h1>
+    </div>
+    <div>
 
-        <div id="map" style="width:60%;height:600px;margin: 0 auto 0 auto;"></div>
-    	<script>
-    		function myMap() {
-      			var myCenter = new google.maps.LatLng(42.701389,23.302139);
-      			var mapCanvas = document.getElementById("map");
-      			var mapOptions = {center: myCenter, zoom: 15};
-      			var map = new google.maps.Map(mapCanvas, mapOptions);
-      			var marker = new google.maps.Marker({position:myCenter});
-      			marker.setMap(map);
-    }
-    	</script>
+    </div>
+    <div align="center">
+        <font color="red" size="6">Очаквайте скоро</font>
+    </div>
+    <div align="center">
+        <p>Контакти : </p>
+    </div>
 
-    	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg1_DVFO3m_r9FJg-k0l5TqWLplhNauDc&callback=myMap"></script>
+    <div align = "center">
+        <p>имейл : contact@centralwesthotel.com</p>
+        <p>телефон : +359885747606</p>
+    </div>
+
+    <!--Google maps -->
+
+    <div id="map" style="width:60%;height:600px;margin: 0 auto 0 auto;"></div>
+	<script>
+		function myMap() {
+  			var myCenter = new google.maps.LatLng(42.701389,23.302139);
+  			var mapCanvas = document.getElementById("map");
+  			var mapOptions = {center: myCenter, zoom: 15};
+  			var map = new google.maps.Map(mapCanvas, mapOptions);
+  			var marker = new google.maps.Marker({position:myCenter});
+  			marker.setMap(map);
+}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg1_DVFO3m_r9FJg-k0l5TqWLplhNauDc&callback=myMap"></script>
 
 
     </body>
