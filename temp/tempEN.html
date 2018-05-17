@@ -1,52 +1,52 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title="Central West Hotel" >
-  </head>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title="Central West Hotel" >
+</head>
 
-  <body>
-    <div class="dropdown" align="right">
-      <button class="btn btn-primary dropdown-toggle" type="button" style="background:gray" data-toggle="dropdown">Language
-      <span class="caret"></span></button>
-      <ul class="dropdown-menu">
-        <li><a href="./tempBG.html">Български</a></li>
-          <li><a href="./tempEN.html">English</a></li>
-      </ul>
-    </div>
-    <div align = "center">
-        <img src="logo.png" alt="logo" height="320" width="520">
-        <h1> New hotel in the center of Sofia<h1>
-    </div>
-    <div align="center">
-        <font color="red" size="6"> Coming Soon</font>
-    </div>
-    <div align="center">
-        <p>Contact us : </p>
-    </div>
+<body>
+<div class="dropdown" style="position: fixed">
+<button class="btn btn-primary dropdown-toggle" type="button" style="background:gray" data-toggle="dropdown">Език
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a href="./tempBG.html">Български</a></li>
+<li><a href="./tempEN.html">English</a></li>
+</ul>
+</div>
+<div align = "center">
+<img src="logo.png" alt="logo" height="320" width="520">
+<h1> New hotel in the center of Sofia<h1>
+</div>
+<div align="center">
+<font color="red" size="6"> Coming Soon</font>
+</div>
+<div align="center">
+<p>Contact us : </p>
+</div>
 
-    <div align = "center">
-        <p>e-mail : contact@centralwesthotel.com</p>
-        <p>tel : +359885747606</p>
-    </div>
+<div align = "center">
+<p>e-mail : contact@centralwesthotel.com</p>
+<p>tel : +359885747606</p>
+</div>
 
-    <!--Google maps -->
+<!--Google maps -->
 
-    <div id="map" style="width:60%;height:600px;margin: 0 auto 0 auto;"></div>
-    <script>
-		  function myMap() {
-  	     var myCenter = new google.maps.LatLng(42.701389,23.302139);
-  			 var mapCanvas = document.getElementById("map");
-  			 var mapOptions = {center: myCenter, zoom: 15};
-  			 var map = new google.maps.Map(mapCanvas, mapOptions);
-  			 var marker = new google.maps.Marker({position:myCenter});
-  			 marker.setMap(map);
-      }
-    </script>
+<div id="map" style="width:60%;height:600px;margin: 0 auto 0 auto;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(42.701389,23.302139);
+var mapCanvas = document.getElementById("map");
+var mapOptions = {center: myCenter, zoom: 15};
+var map = new google.maps.Map(mapCanvas, mapOptions);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg1_DVFO3m_r9FJg-k0l5TqWLplhNauDc&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg1_DVFO3m_r9FJg-k0l5TqWLplhNauDc&callback=myMap"></script>
   
-  </body>
+</body>
 </html>
