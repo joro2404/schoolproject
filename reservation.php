@@ -6,6 +6,7 @@
 	<title>Central West Hotel </title>
 </head>
 <body>
+	<img src="./logo.png">
 	<?php
 		$from = $_GET["from"];
 		$to = $_GET["to"];
