@@ -11,11 +11,11 @@
 	</script>>
 </head>
 <body>
-	<div>
-		<div style="height: 500px">
+	<div style="clear:both">
+		<div style="height: 500px; float:right">
 			<img style="height:500px" src="./logo.png">
 		</div>
-		<div>
+		<div style="float:left">
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
