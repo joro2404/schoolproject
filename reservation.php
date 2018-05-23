@@ -15,7 +15,7 @@
 		<div style="height: 300px; float:left">
 			<img style="height:300px" src="./logo.png">
 		</div>
-		<div style="float:right">
+		<div>
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
