@@ -17,7 +17,7 @@
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
 				echo "<br><table>";
-				echo "<tr><td>Check-in date </td> <td><input type=\"text\" name=\"from_new\" value=\"$from\"></td></tr>";
+				echo "<tr><td>Check-in date<p style=\"color:red\">* </p> </td> <td><input type=\"text\" name=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Check-out date </td> <td><input type=\"text\" name=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Adults </td> <td><input type=\"text\" name=\"adults_new\" value=\"$adults\"></td></tr>";
 				echo "<tr><td>Children </td> <td><input type=\"text\" name=\"children_new\" value=\"$children\"></td></tr>";
