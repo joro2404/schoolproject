@@ -12,10 +12,10 @@
 </head>
 <body>
 	<div style="clear:both">
-		<div style="height: 500px; float:right">
-			<img style="height:500px" src="./logo.png">
+		<div style="height: 300px; float:left">
+			<img style="height:300px" src="./logo.png">
 		</div>
-		<div style="float:left">
+		<div style="float:right">
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
