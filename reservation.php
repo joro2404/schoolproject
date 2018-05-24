@@ -7,7 +7,8 @@
 	<script type="text/javascript">
 		function submit() {
 			var xhhtp = new XMLHttpRequest();
-			var par = "?" + "from=" + document.getElementById('from_new').value.replace("/", "%2F") + "&to=" + document.getElementById("to_new").value.replace("/", "%2F") + "&adults=" + document.getElementById("adults_new").value + "&children=" + document.getElementById("children_new") + "&name=" + document.getElementById("cname").replace(" ", "%32") + "&email=" + document.getElementById("email") + "&phone=" + document.getElementById("phone");
+			var msg = "Reservation from website:\nCheck-in date: " + document.getElementById("from_new").value + "\nCheck-out date: " + document.getElementById("to_new").value + "\nAdults: " + document.getElementById("adults_new") + "\nChildren: " + document.getElementById("children_new") + "\nName: " + document.getElementById("cname") + "\nPhone: " + document.getElementById("phone") + "\nE-mail: " + document.getElementById("email");
+			//var par = "?" + "from=" + document.getElementById('from_new').value.replace("/", "%2F") + "&to=" + document.getElementById("to_new").value.replace("/", "%2F") + "&adults=" + document.getElementById("adults_new").value + "&children=" + document.getElementById("children_new") + "&name=" + document.getElementById("cname").replace(" ", "%32") + "&email=" + document.getElementById("email") + "&phone=" + document.getElementById("phone");
 			xhttp.open("GET", "ifko42.info/sami/send_mail.php?msg=test", true);
 			xhttp.send();
 		}
