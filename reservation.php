@@ -7,6 +7,7 @@
 	<script type="text/javascript">
 		function submit() {
 			var xhhtp = new XMLHttpRequest();
+			var par = "?" + 
 			//xhttp.open("GET", "./reservation.php", true);
 		}
 
@@ -31,8 +32,8 @@
 				echo "<tr><td>Name </td> <td><input type=\"text\" id=\"cname\"></td></tr>";
 				echo "<tr><td>Phone </td> <td><input type=\"text\" id=\"phone\"></td></tr>";
 				echo "<tr><td>Email </td> <td><input type=\"text\" id=\"email\"></td></tr>";
-				echo "<tr><td><button type=\"button\" onclick=\"submit()\">Send</td></tr>"
-				echo "</table>";
+				echo "<tr><td><button type=\"submit\" onclick=\"submit()\">Send</td></tr>"
+				echo "</table></form>";
 			?>
 		</div>
 	</div>	
