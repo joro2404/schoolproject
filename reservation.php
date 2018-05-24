@@ -7,8 +7,9 @@
 	<script type="text/javascript">
 		function submit() {
 			var xhhtp = new XMLHttpRequest();
-			var par = "?" + 
-			//xhttp.open("GET", "./reservation.php", true);
+			var par = "?" + "from=" + document.getElementById('from_new').value.replace("/", "%2F") + "&to=" + document.getElementById("to_new").value.replace("/", "%2F") + "&adults=" + document.getElementById("adults_new").value + "&children=" + document.getElementById("children_new") + "&name=" + document.getElementById("cname").replace(" ", "%32") + "&email=" + document.getElementById("email") + "&phone=" + document.getElementById("phone");
+			xhttp.open("GET", "ifko42.info/sami/send_mail.php?msg=test", true);
+			xhttp.send();
 		}
 
 	</script>>
@@ -32,7 +33,7 @@
 				echo "<tr><td>Name </td> <td><input type=\"text\" id=\"cname\"></td></tr>";
 				echo "<tr><td>Phone </td> <td><input type=\"text\" id=\"phone\"></td></tr>";
 				echo "<tr><td>Email </td> <td><input type=\"text\" id=\"email\"></td></tr>";
-				echo "<tr><td><button type=\"submit\" onclick=\"submit()\">Send</td></tr>";
+				echo "<tr><td><button type=\"button\" onclick=\"submit()\">Send</td></tr>";
 				echo "</table></form>";
 			?>
 		</div>
