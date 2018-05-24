@@ -17,7 +17,7 @@
     		var date1 = document.getElementById("from_new").value;
     		var a = Date.parse(date1);
 		alert(a);
-    		if (a == NaN) alert ("error");
+    		if (a == "NaN") alert ("error");
 			var msg = "Reservation from website: ESCnCheck-in date: " + date1 + "ESCnCheck-out date: " + document.getElementById("to_new").value + "ESCnAdults: " + document.getElementById("adults_new").value + "ESCnChildren: " + document.getElementById("children_new").value + "ESCnName: " + document.getElementById("cname").value + "ESCnPhone: " + document.getElementById("phone").value + "ESCnE-mail: " + document.getElementById("email").value;
 			//var par = "?" + "from=" + document.getElementById('from_new').value.replace("/", "%2F") + "&to=" + document.getElementById("to_new").value.replace("/", "%2F") + "&adults=" + document.getElementById("adults_new").value + "&children=" + document.getElementById("children_new") + "&name=" + document.getElementById("cname").replace(" ", "%32") + "&email=" + document.getElementById("email") + "&phone=" + document.getElementById("phone");
 			xhttp.open("GET", "http://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F"), true);
