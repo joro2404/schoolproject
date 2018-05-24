@@ -88,41 +88,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="top-menu" style="width:10%;height:10%;margin:0 auto 0 auto" >
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2" align = "left">
-							<div "id="colorlib-logo" ><a href="index.html"><img src = "./logo.png" style="width:100%;height:100%;margin:0 auto 0 auto"></a></div>
-						</div>
-						<div class="col-xs-10 text-center menu-1" >
-							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li class="has-dropdown">
-									<!-- <a href="rooms-suites.html">Rooms</a> -->
-									<a>Rooms</a>
-									<!--<ul class="dropdown">
-										<li><a href="#">Two persons</a></li>
-										<li><a href="#">Three persons</a></li>
-										<li><a href="#">Apartaments</a></li>
-										<li><a href="#">VIP</a></li>
-									</ul>-->
-								</li>
-								<!--<li><a href="dining-bar.html">Dining &amp; Bar</a></li>
-								<li><a href="aminities.html">Aminities</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>-->
-								<!--<li><a>Dining &amp; Bar</a></li>
-								<li><a>Aminities</a></li>
-								<li><a>Blog</a></li>
-								<li><a>About</a></li>
-								<li><a>Contact</a></li>-->
-								<li><a>Aminities</a></li>
-								<li><a>Gallery</a></li>
-								<li><a>Contact</a></li>
-							</ul>
-						</div>
-					</div>
+			<div  style=";margin:0 auto 0 auto" >
+				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px">
+					<a href="index.html"><img src = "./logo.png" style="width:100%;height:100%;margin-bottom: :20px auto 0 auto"></a>
+				</div>
+				<div>
+					<ul>
+						<li><a href ="#">Home</a></li>
+						<li><a href="#">Rooms</a></li>
+						<li><a href="#">Aminities</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
 				</div>
 			</div>
 		</nav>
@@ -192,14 +169,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 search-wrap">
-						<form method="get" action="./reservation.php" class="colorlib-form">
+						<form method="post" class="colorlib-form">
 		              	<div class="row">
 		                <div class="col-md-3">
 		                  <div class="form-group">
 		                    <label for="date">Check-in:</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-calendar2"></i>
-		                      <input type="text" id="date" name="from" class="form-control date" placeholder="Check-in date">
+		                      <input type="text" id="date" class="form-control date" placeholder="Check-in date">
 		                    </div>
 		                  </div>
 		                </div>
@@ -208,7 +185,7 @@
 		                    <label for="date">Check-out:</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-calendar2"></i>
-		                      <input type="text" id="date" name="to" class="form-control date" placeholder="Check-out date">
+		                      <input type="text" id="date" class="form-control date" placeholder="Check-out date">
 		                    </div>
 		                  </div>
 		                </div>
@@ -217,10 +194,12 @@
 		                    <label for="adults">Adults</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-arrow-down3"></i>
-		                      <select name="adults" id="people" class="form-control">
-		                        <option style="color:black" value="1">1</option>
-		                        <option style="color:black" value="2">2</option>
-		                        <option style="color:black" value="3">3</option>
+		                      <select name="people" id="people" class="form-control">
+		                        <option value="#">1</option>
+		                        <option value="#">2</option>
+		                        <option value="#">3</option>
+		                        <option value="#">4</option>
+		                        <option value="#">5+</option>
 		                      </select>
 		                    </div>
 		                  </div>
@@ -230,17 +209,18 @@
 		                    <label for="children">Children</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-arrow-down3"></i>
-		                      <select name="children" id="people" class="form-control">
-		                        <option style="color:black" value="1">1</option>
-		                        <option style="color:black" value="2">2</option>
-		                        <option style="color:black" value="3">3</option>
-		                        <option style="color:black" value="4">4</option>
+		                      <select name="people" id="people" class="form-control">
+		                        <option value="#">1</option>
+		                        <option value="#">2</option>
+		                        <option value="#">3</option>
+		                        <option value="#">4</option>
+		                        <option value="#">5+</option>
 		                      </select>
 		                    </div>
 		                  </div>
 		                </div>
 		                <div class="col-md-2">
-		                  <input type="submit" name="submit" id="submit" value="Send" class="btn btn-primary btn-block">
+		                  <input type="submit" name="submit" id="submit" value="Search" class="btn btn-primary btn-block">
 		                </div>
 		              </div>
 		            </form>
