@@ -1,0 +1,2 @@
+[22-May-2018 22:04:06 Europe/Sofia] PHP Warning:  fsockopen(): unable to connect to centralwesthotel.com:25 (Connection refused) in /home/centkgfr/schoolproject/reservation.php on line 15
+[22-May-2018 22:18:01 Europe/Sofia] PHP Warning:  fsockopen(): unable to connect to xt.digsys.bg:25 (Network is unreachable) in /home/centkgfr/schoolproject/reservation.php on line 15
