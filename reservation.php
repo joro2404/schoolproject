@@ -19,7 +19,7 @@
 			xhttp.send();
 		}
 
-	</script>>
+	</script>
 </head>
 <body>
 	<div style="clear:both">
