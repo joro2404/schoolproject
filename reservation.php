@@ -14,7 +14,13 @@
       				document.getElementById("demo").innerHTML = this.responseText;
     			}
     		};
-			var msg = "Reservation from website: ESCnCheck-in date: " + document.getElementById("from_new").value + "ESCnCheck-out date: " + document.getElementById("to_new").value + "ESCnAdults: " + document.getElementById("adults_new").value + "ESCnChildren: " + document.getElementById("children_new").value + "ESCnName: " + document.getElementById("cname").value + "ESCnPhone: " + document.getElementById("phone").value + "ESCnE-mail: " + document.getElementById("email").value;
+    		var date1 = document.getElementById("from_new").value;
+    		try {
+    			var a = new Date(date1.split("/"));
+    		} catch(err) {
+    			alert("error");
+    		}
+			var msg = "Reservation from website: ESCnCheck-in date: " + date1 + "ESCnCheck-out date: " + document.getElementById("to_new").value + "ESCnAdults: " + document.getElementById("adults_new").value + "ESCnChildren: " + document.getElementById("children_new").value + "ESCnName: " + document.getElementById("cname").value + "ESCnPhone: " + document.getElementById("phone").value + "ESCnE-mail: " + document.getElementById("email").value;
 			//var par = "?" + "from=" + document.getElementById('from_new').value.replace("/", "%2F") + "&to=" + document.getElementById("to_new").value.replace("/", "%2F") + "&adults=" + document.getElementById("adults_new").value + "&children=" + document.getElementById("children_new") + "&name=" + document.getElementById("cname").replace(" ", "%32") + "&email=" + document.getElementById("email") + "&phone=" + document.getElementById("phone");
 			xhttp.open("GET", "http://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F"), true);
 			xhttp.send();
