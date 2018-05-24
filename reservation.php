@@ -7,20 +7,22 @@
 	<title>Central West Hotel </title>
 	<script type="text/javascript">
 		function send() {
-			document.getElementById("butt").disabled = true;
+		//	document.getElementById("butt").disabled = true;
 			var xhttp = new XMLHttpRequest();
 			xhttp.onreadystatechange = function () {
 				if (this.readyState == 4 && this.status == 200) {
       				document.getElementById("demo").innerHTML = this.responseText;
     			}
     		};
-			var msg = "Reservation from website: ESCnCheck-in date: " + document.getElementById("from_new").value + "ESCnCheck-out date: " + document.getElementById("to_new").value + "ESCnAdults: " + document.getElementById("adults_new").value + "ESCnChildren: " + document.getElementById("children_new").value + "ESCnName: " + document.getElementById("cname").value + "ESCnPhone: " + document.getElementById("phone").value + "ESCnE-mail: " + document.getElementById("email").value;
+    		var date1 = document.getElementById("from_new").value, date2 = document.getElementById("to_new").value, adults = document.getElementById("adults_new").value;
+    		var children = document.getElementById("children_new").value, name = document.getElementById("cname").value, phone = document.getElementById("phone").value;
+    		if (isNaN(Date.parse(date1)) || isNaN(Date.parse(date2)) || !(Number.isInteger(children)) || !(Number.isInteger(adults))) alert ("error");
+			var msg = "Reservation from website: ESCnCheck-in date: " + date1 + "ESCnCheck-out date: " + date2 + "ESCnAdults: " + adults + "ESCnChildren: " + children + "ESCnName: " + name + "ESCnPhone: " + phone + "ESCnE-mail: " + document.getElementById("email").value;
 			//var par = "?" + "from=" + document.getElementById('from_new').value.replace("/", "%2F") + "&to=" + document.getElementById("to_new").value.replace("/", "%2F") + "&adults=" + document.getElementById("adults_new").value + "&children=" + document.getElementById("children_new") + "&name=" + document.getElementById("cname").replace(" ", "%32") + "&email=" + document.getElementById("email") + "&phone=" + document.getElementById("phone");
 			xhttp.open("GET", "http://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F"), true);
 			xhttp.send();
 			alert("Successfully sent");
 		}
-
 	</script>
 
 	<!-- Animate.css -->
