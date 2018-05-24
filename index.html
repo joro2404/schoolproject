@@ -89,16 +89,16 @@
 				</div>
 			</div>
 			<div  style=";margin:0 auto 0 auto" >
-				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px">
+				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px;margin-left: 80px">
 					<a href="index.html"><img src = "./logo.png" style="width:100%;height:100%;margin-bottom: :20px auto 0 auto"></a>
 				</div>
-				<div>
-					<ul>
-						<li><a href ="#">Home</a></li>
-						<li><a href="#">Rooms</a></li>
-						<li><a href="#">Aminities</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">Contact</a></li>
+				<div style = "float:right;position: relative;left:-50%;text-align: left;">
+					<ul style = "position: relative;left:50%;margin-top:70px;margin-left: 150px">
+						<li><a href ="#" style = "word-spacing: 10px;font-size: 20px">Home</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Aminities</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -169,14 +169,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 search-wrap">
-						<form method="post" class="colorlib-form">
+						<form method="get" action = "./reservation.php" class="colorlib-form">
 		              	<div class="row">
 		                <div class="col-md-3">
 		                  <div class="form-group">
 		                    <label for="date">Check-in:</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-calendar2"></i>
-		                      <input type="text" id="date" class="form-control date" placeholder="Check-in date">
+		                      <input type="text" id="date" name="from" class="form-control date" placeholder="Check-in date">
 		                    </div>
 		                  </div>
 		                </div>
@@ -185,7 +185,7 @@
 		                    <label for="date">Check-out:</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-calendar2"></i>
-		                      <input type="text" id="date" class="form-control date" placeholder="Check-out date">
+		                      <input type="text" id="date" name ="to" class="form-control date" placeholder="Check-out date">
 		                    </div>
 		                  </div>
 		                </div>
@@ -194,12 +194,10 @@
 		                    <label for="adults">Adults</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-arrow-down3"></i>
-		                      <select name="people" id="people" class="form-control">
-		                        <option value="#">1</option>
-		                        <option value="#">2</option>
-		                        <option value="#">3</option>
-		                        <option value="#">4</option>
-		                        <option value="#">5+</option>
+		                      <select name="adults" id="people" class="form-control">
+		                        <option style="color: black" value="1">1</option>
+		                        <option style="color: black" value="2">2</option>
+		                        <option style="color: black" value="3">3</option>
 		                      </select>
 		                    </div>
 		                  </div>
@@ -209,18 +207,17 @@
 		                    <label for="children">Children</label>
 		                    <div class="form-field">
 		                      <i class="icon icon-arrow-down3"></i>
-		                      <select name="people" id="people" class="form-control">
-		                        <option value="#">1</option>
-		                        <option value="#">2</option>
-		                        <option value="#">3</option>
-		                        <option value="#">4</option>
-		                        <option value="#">5+</option>
+		                      <select name="children" id="people" class="form-control">
+		                        <option style="color: black" value="1">1</option>
+		                        <option style="color: black" value="2">2</option>
+		                        <option style="color: black" value="3">3</option>
+		                        <option style="color: black" value="4">4</option>
 		                      </select>
 		                    </div>
 		                  </div>
 		                </div>
 		                <div class="col-md-2">
-		                  <input type="submit" name="submit" id="submit" value="Search" class="btn btn-primary btn-block">
+		                  <input type="submit" name="submit" id="submit" value="Send" class="btn btn-primary btn-block">
 		                </div>
 		              </div>
 		            </form>
@@ -235,7 +232,7 @@
 					<div class="col-md-3 animate-box text-center">
 						<div class="services">
 							<span class="icon">
-								<i class="flaticon-reception"></i>
+								<img src="./room.png" height="80%" width="80%">
 							</span>
 							<h3>Larger Rooms</h3>
 							<p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
@@ -244,7 +241,7 @@
 					<div class="col-md-3 animate-box text-center">
 						<div class="services">
 							<span class="icon">
-								<i class="flaticon-herbs"></i>
+								<img src="./conf.png" height="80%" width="80%">
 							</span>
 							<h3>Conference room</h3>
 							<p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
@@ -252,8 +249,8 @@
 					</div>
 					<div class="col-md-3 animate-box text-center">
 						<div class="services">
-							<span class="icon">
-								<i class="flaticon-car"></i>
+							<span class="icon" >
+								<img src="./location.png" height="80%" width="80%">
 							</span>
 							<h3>In the center of Sofia</h3>
 							<p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
@@ -262,7 +259,7 @@
 					<div class="col-md-3 animate-box text-center">
 						<div class="services">
 							<span class="icon">
-								<i class="flaticon-cheers"></i>
+								<img src="./cafe.png" height="80%" width="80%">
 							</span>
 							<h3>Lobby bar</h3>
 							<p>SSample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
