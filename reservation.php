@@ -11,11 +11,11 @@
 			xhttp.onreadystatechange = function () {
 				if (this.readyState == 4 && this.status == 200) {
       				document.getElementById("demo").innerHTML = this.responseText;
-    			} else document.write("error");
+    			}
     		};
 			var msg = "Reservation from website:\nCheck-in date: " + document.getElementById("from_new").value + "\nCheck-out date: " + document.getElementById("to_new").value + "\nAdults: " + document.getElementById("adults_new").value + "\nChildren: " + document.getElementById("children_new").value + "\nName: " + document.getElementById("cname").value + "\nPhone: " + document.getElementById("phone").value + "\nE-mail: " + document.getElementById("email").value;
 			//var par = "?" + "from=" + document.getElementById('from_new').value.replace("/", "%2F") + "&to=" + document.getElementById("to_new").value.replace("/", "%2F") + "&adults=" + document.getElementById("adults_new").value + "&children=" + document.getElementById("children_new") + "&name=" + document.getElementById("cname").replace(" ", "%32") + "&email=" + document.getElementById("email") + "&phone=" + document.getElementById("phone");
-			xhttp.open("GET", "http://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F"), true);
+			xhttp.open("GET", "http://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F").replace("\n", "%0"), true);
 			xhttp.send();
 		}
 
