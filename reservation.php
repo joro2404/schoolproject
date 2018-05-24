@@ -22,13 +22,88 @@
 		}
 
 	</script>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 <body>
-	<div style="clear:both">
-		<div style="height: 300px; float:left">
-			<img style="height:300px" src="./logo.png">
-		</div>
-		<div style="margin-left:750px">
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4">
+							<p class="site">www.centralwesthotel.com</p>
+						</div> 
+						<div class="col-xs-8 text-right">
+							<!--<p class="num">Call: +359885747606</p>
+							<p class="num">e-mail : contact@centralwesthotel.com</p> -->
+							<ul class="colorlib-social">
+								<li><a href="https://youtube.com/" target="_blank"><i class="icon-youtube"></i></a></li>
+								<li><a href="https://www.facebook.com/" target = "_blank"><i class="icon-facebook"></i></a></li>
+								<!--<li><a href="#"><i class="icon-linkedin"></i></a></li>-->
+								<li><a href="https://www.instagram.com/?hl=bg" target = "_blank"><i class="icon-instagram"></i></a></li>
+							</ul> 
+						</div>
+						<div class = "col-xs-12 text-center" style = "margin-top:-35px">
+							<ul>
+								<li><a href ="#">About us</a></li>
+								<li><a href ="#">How to reach us</a></li>
+								<li><a href ="#">Landmarks</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div  style=";margin:0 auto 0 auto" >
+				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px">
+					<a href="index.html"><img src = "./logo.png" style="width:100%;height:100%;margin-bottom: :20px auto 0 auto"></a>
+				</div>
+				<div>
+					<ul>
+						<li><a href ="#">Home</a></li>
+						<li><a href="#">Rooms</a></li>
+						<li><a href="#">Aminities</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
@@ -45,8 +120,5 @@
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
 			?>
-		</div>
-	</div>
-	<p id="demo"></p>
 </body>
 </html>
