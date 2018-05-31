@@ -103,7 +103,8 @@
 				</div>
 			</div>
 		</nav>
-		
+	</div>
+
 		<div style='width:100%; background-image:url("images/hotel012ed.jpg")'>
 			<?php
 				$from = $_GET["from"];
@@ -123,7 +124,5 @@
 				echo "</table></form>";
 			?>
 		</div>
-
-	</div>
 </body>
 </html>
