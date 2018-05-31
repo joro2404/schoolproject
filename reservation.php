@@ -25,8 +25,11 @@
 
 	<style>
 	td {
-		color: white;
-		font-size: 
+		color: #313131;
+		font-size: 25px;
+	}
+	tr {
+		margin-bottom: 20px; 
 	}
 	</style>
 
@@ -59,7 +62,7 @@
 
 
 </head>
-<body style='background-image:url("images/hotel012ed.jpg")'>
+<body>
 	<div id="page">
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top">
@@ -103,14 +106,16 @@
 				</div>
 			</div>
 		</nav>
-		
+	</div>
+
+		<div style='width:100%; height: 100%; background-image:url("images/hotel012ed.jpg")'>
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
-				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:200px; margin-left:800px\">";
-				echo "<tr><td>Check-in date</td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
+				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:50px; margin-left:200px\">";
+				echo "<tr><td>Check-in date </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Check-out date </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Adults </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
 				echo "<tr><td>Children </td> <td><input type=\"text\" id=\"children_new\" value=\"$children\"></td></tr>";
@@ -121,6 +126,6 @@
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
 			?>
-	</div>
+		</div>
 </body>
 </html>
