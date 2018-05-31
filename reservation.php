@@ -25,8 +25,11 @@
 
 	<style>
 	td {
-		color: white;
-		font-size: 
+		color: #313131;
+		font-size: 25px;
+	}
+	tr {
+		margin-bottom: 20px; 
 	}
 	</style>
 
@@ -105,7 +108,7 @@
 		</nav>
 	</div>
 
-		<div style='width:100%; background-image:url("images/hotel012ed.jpg")'>
+		<div style='width:100%; height: 100%; background-image:url("images/hotel012ed.jpg")'>
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
