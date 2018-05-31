@@ -25,7 +25,7 @@
 
 	<style>
 	td {
-		color: black;
+		color: white;
 		font-size: 
 	}
 	</style>
@@ -59,7 +59,7 @@
 
 
 </head>
-<body style='background-image:url("images/hotel012ed.jpg")'>
+<body>
 	<div id="page">
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top">
@@ -104,6 +104,7 @@
 			</div>
 		</nav>
 		
+		<div style='width:100%; background-image:url("images/hotel012ed.jpg")'>
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
@@ -121,6 +122,8 @@
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
 			?>
+		</div>
+
 	</div>
 </body>
 </html>
