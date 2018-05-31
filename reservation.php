@@ -24,7 +24,7 @@
 	</script>
 
 	<style>
-	.tdtxt {
+	td {
 		color: black;
 		font-size: 
 	}
@@ -110,7 +110,7 @@
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
 				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:200px; margin-left:800px\">";
-				echo "<tr><td>Check-in date class=\"tdtxt\"</td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
+				echo "<tr><td>Check-in date </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Check-out date </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Adults </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
 				echo "<tr><td>Children </td> <td><input type=\"text\" id=\"children_new\" value=\"$children\"></td></tr>";
