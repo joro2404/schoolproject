@@ -50,12 +50,10 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
-	
+
 </head>
 <body>
-	<div class="colorlib-loader"></div>
 
-	<div id="page">
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top">
 				<div class="container">
@@ -64,12 +62,12 @@
 							<p class="site">www.centralwesthotel.com</p>
 						</div> 
 						<div class="col-xs-8 text-right">
-							<p class="num">Call: +359885747606</p>
-							<p class="num">e-mail : contact@centralwesthotel.com</p>
+							<!--<p class="num">Call: +359885747606</p>
+							<p class="num">e-mail : contact@centralwesthotel.com</p> -->
 							<ul class="colorlib-social">
 								<li><a href="https://youtube.com/" target="_blank"><i class="icon-youtube"></i></a></li>
 								<li><a href="https://www.facebook.com/" target = "_blank"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<!--<li><a href="#"><i class="icon-linkedin"></i></a></li>-->
 								<li><a href="https://www.instagram.com/?hl=bg" target = "_blank"><i class="icon-instagram"></i></a></li>
 							</ul> 
 						</div>
@@ -84,21 +82,21 @@
 				</div>
 			</div>
 			<div  style=";margin:0 auto 0 auto" >
-				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px">
+				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px;margin-left: 80px">
 					<a href="index.html"><img src = "./logo.png" style="width:100%;height:100%;margin-bottom: :20px auto 0 auto"></a>
 				</div>
-				<div>
-					<ul>
-						<li><a href ="#">Home</a></li>
-						<li><a href="#">Rooms</a></li>
-						<li><a href="#">Aminities</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">Contact</a></li>
+				<div style = "float:right;position: relative;left:-50%;text-align: left;">
+					<ul style = "position: relative;left:50%;margin-top:70px;margin-left: 150px">
+						<li><a href ="#" style = "word-spacing: 10px;font-size: 20px">Home</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Aminities</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-
+		
 			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
