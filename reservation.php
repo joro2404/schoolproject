@@ -26,7 +26,7 @@
 	<style>
 	.tdtxt {
 		color: black;
-		font-size: 20px;
+		font-size: 
 	}
 	</style>
 
@@ -59,7 +59,7 @@
 
 
 </head>
-<body style='background-image:url("images/hotel012.jpg")'>
+<body style='background-image:url("images/hotel012ed.jpg")'>
 	<div id="page">
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top">
