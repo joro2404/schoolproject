@@ -90,6 +90,12 @@
 						</div>
 					</div>
 				</div>
+				<div style="float: right; margin-top: -25px; margin-right: 50px;">
+							<img src="images/en_flag.png" style="width: 30px">
+				</div>
+				<div style="float: right; margin-top: -25px; margin-right: 20px;">
+							<img src="images/bg-01.png" style="width: 30px">
+				</div>
 			</div>
 			<div  style=";margin:0 auto 0 auto" >
 				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px;margin-left: 80px">
