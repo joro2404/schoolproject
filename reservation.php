@@ -58,7 +58,7 @@
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<script type="text/javascript">
 		function send() {
-		//	document.getElementById("butt").disabled = true;
+			document.getElementById("butt").disabled = true;
 			var xhttp = new XMLHttpRequest();
 			xhttp.onreadystatechange = function () {
 				if (this.readyState == 4 && this.status == 200) {
@@ -116,10 +116,10 @@
 					</div>
 				</div>
 				<div style="float: right; margin-top: -25px; margin-right: 50px;">
-							<a href="gallery.html"><img src="images/en_flag.png" style="width: 30px"></a>
+							<a href="reservation.php"><img src="images/en_flag.png" style="width: 30px"></a>
 				</div>
 				<div style="float: right; margin-top: -25px; margin-right: 20px;">
-							<a href="galleryBG.html"><img src="images/bg-01.png" style="width: 30px"></a>
+							<a href="reservationBG.php"><img src="images/bg-01.png" style="width: 30px"></a>
 				</div>
 			</div>
 			<div  style=";margin:0 auto 0 auto" >
