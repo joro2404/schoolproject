@@ -26,7 +26,7 @@
 	<style>
 	td {
 		color: #313131;
-		font-size: 20px;
+		font-size: 15px;
 	}
 	tr {
 		margin-bottom: 20px; 
@@ -120,7 +120,7 @@
 				$to = $_GET["to"];
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
-				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:50px; margin-left:200px\">";
+				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:50px; margin-left:400px\">";
 				echo "<tr><td>Check-in date </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Check-out date </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Adults </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
@@ -133,5 +133,29 @@
 				echo "</table></form>";
 			?>
 		
+		<div id="colorlib-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+						<h2>Контакти</h2>
+					</div>
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						
+						<div class="row contact-info-wrap">
+							<div class="col-md-3">
+								<p><span><i class="icon-location-2"></i></span>1309 Sofia Center,<br>bul. "Todor Alexandrov" 135</p>
+							</div>
+							<div class="col-md-3">
+								<p><span><i class="icon-phone3"></i></span> <a >+35988 574 7606</a></p>
+							</div>
+							<div class="col-md-3" style = "font-size:11px">
+								<p><span><i class="icon-paperplane"></i></span> <a >contact@centralwesthotel.com</a></p>
+							</div>
+						<div class="col-md-3">
+								<p><span><i class="icon-globe"></i></span> <a>centralwesthotel.com</a></p>
+							</div>
+						</div>
+					</div>
 </body>
 </html>
