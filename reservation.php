@@ -108,18 +108,18 @@
 						</div>
 						<div class = "col-xs-12 text-center" style = "margin-top:-35px">
 							<ul>
-								<li><a href ="#">За нас</a></li>
-								<li><a href ="#">Как да стигнете</a></li>
-								<li><a href ="#">Забележителности</a></li>
+								<li><a href ="#">About us</a></li>
+								<li><a href ="#">How to reach us</a></li>
+								<li><a href ="#">Landmarks</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div style="float: right; margin-top: -25px; margin-right: 50px;">
-							<a href="reservation.php"><img src="images/en_flag.png" style="width: 30px"></a>
+							<a href="gallery.html"><img src="images/en_flag.png" style="width: 30px"></a>
 				</div>
 				<div style="float: right; margin-top: -25px; margin-right: 20px;">
-							<a href="reservationBG.php"><img src="images/bg-01.png" style="width: 30px"></a>
+							<a href="galleryBG.html"><img src="images/bg-01.png" style="width: 30px"></a>
 				</div>
 			</div>
 			<div  style=";margin:0 auto 0 auto" >
@@ -128,11 +128,11 @@
 				</div>
 				<div style = "float:right;position: relative;left:-50%;text-align: left;">
 					<ul style = "position: relative;left:50%;margin-top:70px;margin-left: 150px">
-						<li><a href ="./index.php" style = "word-spacing: 10px;font-size: 20px">Начало</a></li>
-						<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Стаи</a></li>
-						<li><a href="./aminities.html" style = "word-spacing: 10px;font-size: 20px">Удобства</a></li>
-						<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Галерия</a></li>
-						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Контакти</a></li>
+						<li><a href ="./index.php" style = "word-spacing: 10px;font-size: 20px">Home</a></li>
+						<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
+						<li><a href="./aminities.html" style = "word-spacing: 10px;font-size: 20px">Aminities</a></li>
+						<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
+						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -144,15 +144,15 @@
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
 				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:150px; margin-left:550px\">";
-				echo "<tr><td>Дата на пристигане </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
-				echo "<tr><td>Дата на заминаване </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
-				echo "<tr><td>Възрастни </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
-				echo "<tr><td>Деца </td> <td><input type=\"text\" id=\"children_new\" value=\"$children\"></td></tr>";
-				echo "<tr><td>Име </td> <td><input type=\"text\" id=\"cname\"></td></tr>";
-				echo "<tr><td>Телефон </td> <td><input type=\"text\" id=\"phone\"></td></tr>";
-				echo "<tr><td>Имейл </td> <td><input type=\"text\" id=\"email\"></td></tr>";
+				echo "<tr><td>Check-in date </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
+				echo "<tr><td>Check-out date </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
+				echo "<tr><td>Adults </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
+				echo "<tr><td>Children </td> <td><input type=\"text\" id=\"children_new\" value=\"$children\"></td></tr>";
+				echo "<tr><td>Name </td> <td><input type=\"text\" id=\"cname\"></td></tr>";
+				echo "<tr><td>Phone </td> <td><input type=\"text\" id=\"phone\"></td></tr>";
+				echo "<tr><td>Email </td> <td><input type=\"text\" id=\"email\"></td></tr>";
 				echo "<tr><td><div class=\"g-recaptcha\" data-sitekey=\"6Ld3vVsUAAAAADphxwRIEewSOnuhA1X0WrJWQo9C\"></div></td></tr>";
-				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Изпрати</td></tr>";
+				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
 		?>
 
