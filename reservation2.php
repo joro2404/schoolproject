@@ -55,6 +55,34 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script type="text/javascript">
+		function send() {
+		//	document.getElementById("butt").disabled = true;
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function () {
+				if (this.readyState == 4 && this.status == 200) {
+					alert("Successfully sent");
+    			}
+    		};
+    		var date1 = document.getElementById("from_new").value, date2 = document.getElementById("to_new").value, adults = document.getElementById("adults_new").value;
+    		var children = document.getElementById("children_new").value, name = document.getElementById("cname").value, phone = document.getElementById("phone").value;
+			var msg = "Reservation from website: ESCnCheck-in date: " + date1 + "ESCnCheck-out date: " + date2 + "ESCnAdults: " + adults + "ESCnChildren: " + children + "ESCnName: " + name + "ESCnPhone: " + phone + "ESCnE-mail: " + document.getElementById("email").value;
+			xhttp.open("GET", "http://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F"), true);
+			xhttp.send();
+		}
+	</script>
+
+	<style>
+	td {
+		color: #313131;
+		font-size: 15px;
+	}
+	tr {
+		margin-bottom: 20px; 
+	}
+	</style>
+
 	</head>
 	<body>
 		
