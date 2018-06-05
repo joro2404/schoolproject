@@ -115,7 +115,7 @@
 	</div>
 
 	<!--	<div style='width:100%; height:150%;background-image:url("images/hotel012ed.jpg")'>-->
-	<!--		<?php
+			<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
 				$adults = $_GET["adults"];
@@ -131,7 +131,7 @@
 				echo "<tr><td><div class=\"g-recaptcha\" data-sitekey=\"6Ld3vVsUAAAAADphxwRIEewSOnuhA1X0WrJWQo9C\"></div></td></tr>";
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
-			?>-->
+			?>
 
 		
 		<div id="colorlib-contact">
