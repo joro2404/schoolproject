@@ -3,12 +3,8 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<<<<<<< HEAD
 	<title>Central West Hotel</title>
 	<link rel="shortcut icon" href="./logo.png">
-=======
-	<title>Central West Hotele</title>
->>>>>>> d20f980277c92e099975055bcc38263e8045af2c
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -73,7 +69,7 @@
     		var date1 = document.getElementById("from_new").value, date2 = document.getElementById("to_new").value, adults = document.getElementById("adults_new").value;
     		var children = document.getElementById("children_new").value, name = document.getElementById("cname").value, phone = document.getElementById("phone").value;
 			var msg = "Reservation from website: ESCnCheck-in date: " + date1 + "ESCnCheck-out date: " + date2 + "ESCnAdults: " + adults + "ESCnChildren: " + children + "ESCnName: " + name + "ESCnPhone: " + phone + "ESCnE-mail: " + document.getElementById("email").value;
-			xhttp.open("GET", "http://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F"), true);
+			xhttp.open("GET", "https://ifko42.info/sami/send_mail.php?msg=" + msg.replace("/", "%2F"), true);
 			xhttp.send();
 		}
 	</script>
