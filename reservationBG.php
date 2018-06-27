@@ -131,7 +131,7 @@
 					<ul style = "position: relative;left:50%;margin-top:70px;margin-left: 150px">
 						<li><a href ="./index.php" style = "word-spacing: 10px;font-size: 20px">Начало</a></li>
 						<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Стаи</a></li>
-						<li><a href="./aminities.html" style = "word-spacing: 10px;font-size: 20px">Удобства</a></li>
+						<li><a href="./amenities.html" style = "word-spacing: 10px;font-size: 20px">Удобства</a></li>
 						<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Галерия</a></li>
 						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Контакти</a></li>
 					</ul>

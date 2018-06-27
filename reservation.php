@@ -131,7 +131,7 @@
 					<ul style = "position: relative;left:50%;margin-top:70px;margin-left: 150px">
 						<li><a href ="./index.php" style = "word-spacing: 10px;font-size: 20px">Home</a></li>
 						<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
-						<li><a href="./aminities.html" style = "word-spacing: 10px;font-size: 20px">Aminities</a></li>
+						<li><a href="./amenities.html" style = "word-spacing: 10px;font-size: 20px">amenities</a></li>
 						<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
 						<li><a href="#" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
 					</ul>
