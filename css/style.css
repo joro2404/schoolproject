@@ -415,10 +415,6 @@ h1, h2, h3, h4, h5, h6, figure {
     #colorlib-subscribe,
     #colorlib-footer {
       padding: 3em 0; } }
-
-#colorlib-footer {
-  font-family: "Courier New";
-
 .colorlib-services {
   padding: 3em !important; }
   @media screen and (max-width: 768px) {
