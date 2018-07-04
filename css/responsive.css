@@ -36,9 +36,14 @@
 .header_site{
     text-align:center;
 }
-.js-colorlib-nav-toggle{
-    margin-top:80px;
+.colorlib-nav-white{
+    margin-top:80px!important;
 }
+.contacts{
+    float:initial!important;
+    text-align: center;
+}
+
 @media only screen and (min-width:800px) {
     .links{
         display:block;
@@ -46,6 +51,15 @@
         text-align:center;
         margin-top:80px!important;
         margin-left:60px!important;
+    }
+    .contacts{
+        text-align: initial;
+    }
+    .contacts:nth-child(1){
+        float:left!important;
+    }
+    .contacts:nth-child(2){
+        float:right!important;
     }
     .icons{
         margin-top:-25px;
