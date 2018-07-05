@@ -401,20 +401,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-amenities,
 #colorlib-subscribe,
 #colorlib-footer {
-  padding: 6em 0;
+  
   clear: both; }
-  @media screen and (max-width: 768px) {
-    #colorlib-dining-bar,
-    #colorlib-about,
-    #colorlib-services,
-    #colorlib-contact,
-    #colorlib-rooms,
-    #colorlib-testimony,
-    #colorlib-blog,
-    #colorlib-amenities,
-    #colorlib-subscribe,
-    #colorlib-footer {
-      padding: 3em 0; } }
+  
 .colorlib-services {
   padding: 3em !important; }
   @media screen and (max-width: 768px) {
@@ -1590,8 +1579,6 @@ input[type="text"] {
 .row-pb-lg {
   padding-bottom: 6em !important; }
 
-.row-pb-md {
-  padding-bottom: 4em !important; }
 
 .row-pb-sm {
   padding-bottom: 2em !important; }

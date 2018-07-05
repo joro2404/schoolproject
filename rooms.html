@@ -3,6 +3,8 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>Central West Hotel</title>
 	<link rel="shortcut icon" href="./logo.png">
 	<meta name="description" content="" />
@@ -45,6 +47,9 @@
 	<!-- Flaticons  -->
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
+	<!-- Responsive design -->
+	<link rel="stylesheet" href="css/responsive.css">
+
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -61,46 +66,41 @@
 	<div class="colorlib-loader"></div>
 
 	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			<div class="top">
-				<div>
+			<nav class="colorlib-nav" role="navigation">
+				<div class="top">
 					<div>
-				<div style = "margin-top:-10px; clear: both">
-							<div style="float:left; width: 100px; margin-left: 130px">www.centralwesthotel.com</div>
-							<ul style="text-align:center">
-								<li><a href ="./contact.html#about-us">About us</a></li>
-								<li><a href ="./contact.html#reach">How to reach us</a></li>
-								<li><a href ="https://www.tripadvisor.com/Attractions-g294452-Activities-c47-Sofia_Sofia_Region.html" target="_blank">Landmarks</a></li>
-							</ul>
+						<div>
+							<!--<div class="col-xs-4">
+								<p class="site">www.centralwesthotel.com</p>
+							</div>-->
+	
+						<div style = "margin-top:-8px">
+								<div class="header_site" >www.centralwesthotel.com</div>
+								<ul class="about">
+									<li><a href ="./contact.html#about-us">About us</a></li>
+									<li><a href ="./contact.html#reach">How to reach us</a></li>
+									<li><a href ="https://www.tripadvisor.com/Attractions-g294452-Activities-c47-Sofia_Sofia_Region.html" target="_blank">Landmarks</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
+					<div class="icons">
+						<a href="https://www.facebook.com/centralwesthotelsofia/" target = "_blank"><img src = "./images/facebook.png"></a>
+						<a href="amenities.html"><img src="images/en_flag.png" style="width: 30px"></a>
+						<a href="amenitiesBG.html"><img src="images/bg-01.png" style="width: 30px"></a>
+					</div>
 				</div>
-								<div style="float: right; margin-top: -25px; margin-right:175px">
-					<a href="https://www.facebook.com/centralwesthotelsofia/" target = "_blank"><img src = "./images/facebook.png"></a>
+				<div id="colorlib-logo">
+					<a href="index.php"><img src = "./logo.png" style="width:100%;height:100%;margin-bottom: 20px auto 0 auto"></a>
 				</div>
-
-				<div style="float: right; margin-top: -25px; margin-right: 50px;">
-							<a href="rooms.html"><img src="images/en_flag.png" style="width: 30px"></a>
-				</div>
-				<div style="float: right; margin-top: -25px; margin-right: 20px;">
-							<a href="roomsBG.html"><img src="images/bg-01.png" style="width: 30px"></a>
-				</div>
-			</div>
-			<div  style=";margin:0 auto 0 auto " >
-				<div "id="colorlib-logo" style ="float:left;width:250px;margin-bottom:20px;margin-left: 80px">
-					<a href="index.php"><img src = "./logo.png" style="width:100%;height:100%;margin-bottom: :20px auto 0 auto"></a>
-				</div>
-				<div style = "float:right;position: relative;left:-50%;text-align: left;">
-					<ul style = "position: relative;left:50%;margin-top:70px;margin-left: 150px">
-						<li><a href ="./index.php" style = "word-spacing: 10px;font-size: 20px">Home</a></li>
-						<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
-						<li><a href="./amenities.html" style = "word-spacing: 10px;font-size: 20px">Аmenities</a></li>
-						<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
-						<li><a href="./contact.html" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+				<ul class="links" >
+					<li><a href ="./index.php" style = "word-spacing: 10px;font-size: 20px">Home</a></li>
+					<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
+					<li><a href="./amenities.html" style = "word-spacing: 10px;font-size: 20px">Аmenities</a></li>
+					<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
+					<li><a href="./contact.html" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
+				</ul>
+			</nav>
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
@@ -108,7 +108,7 @@
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
-				   			<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+				   			<div class="middle col-md-6 col-sm-12 col-md-offset-3 slider-text">
 				   				<div class="slider-text-inner slider-text-inner2 text-center">
 				   					<h2>Choose our Best</h2>
 				   					<h1>Rooms &amp; Suites</h1>
@@ -239,66 +239,66 @@
 		</div>
 
 
-		<footer id="colorlib-footer" role="contentinfo" style="height: 400px;padding-top: 20px">
-			<div class="container">
-				<div class="row row-pb-md">
-					<div class="col-md-3 colorlib-widget" style="text-align:left">
-						<h4>Central West Hotel</h4>
-						<p style="color: #adabb1">"Central West Hotel" is a new hotel which has opened in the center of Sofia in 2018. Located in a great part of the city, you can find numerous restaurants, bars, shops and business locations near us. Our hotel has 12 spacious double rooms as well as 4 large studios and all of them are well decorated and include a living room, bedroom and a large bathroom. </p>
-						<p>
-							<!--<ul class="colorlib-social-icons">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-linkedin"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							</ul>-->
-						</p>
-					</div>
-					<div class="col-md-3 colorlib-widget" style="text-align:center">
-						<h4>Quick Links</h4>
-						<p>
+		<footer id="colorlib-footer" role="contentinfo" style="padding-top: 20px">
+				<div class="container">
+					<div class="row row-pb-md">
+						<div class="col-md-3 colorlib-widget" style="text-align:left">
+							<h4>Central West Hotel</h4>
+							<p style="color: #adabb1">"Central West Hotel" is a new hotel which has opened in the center of Sofia in 2018. Located in a great part of the city, you can find numerous restaurants, bars, shops and business locations near us. Our hotel has 12 spacious double rooms as well as 4 large apartments and all of them are well decorated and include a living room, bedroom and a large bathroom. </p>
+							<p>
+								<!--<ul class="colorlib-social-icons">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-facebook"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble"></i></a></li>
+								</ul>-->
+							</p>
+						</div>
+						<div class="col-md-3 colorlib-widget" style="text-align:center">
+							<h4>Quick Links</h4>
+							<p>
+								<ul class="colorlib-footer-links">
+									<li><a href="./index.php">Home</a></li>
+									<li><a href="./rooms/html">Rooms</a></li>
+									<li><a href="./amenities.html">Аmenities</a></li>
+									<li><a href="./gallery.html">Gallery</a></li>
+									<li><a href="./contact.html">Contact</a></li>
+								</ul>
+							</p>
+						</div>
+						<!--<div class="col-md-3">
+							<h4>Recents Blog Post</h4>
 							<ul class="colorlib-footer-links">
-								<li><a href="./index.php">Home</a></li>
-								<li><a href="./rooms.html">Rooms</a></li>
-								<li><a href="./amenities.html">amenities</a></li>
-								<li><a href="gallery.html">Gallery</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="#">The Ultimate Packing List For Female Travelers</a></li>
+								<li><a href="#">How These 5 People Found The Path to Their Dream Trip</a></li>
+								<li><a href="#">A Definitive Guide to the Best Dining and Drinking Venues in the City</a></li>
 							</ul>
-						</p>
+						</div>-->
+	
+						<div class="fixed_footer col-md-3 col-md-push-1" >
+							<h4>Contact Information</h4>
+							<ul class="colorlib-footer-links">
+								<li>1309 Sofia Center<br>bul. "Todor Alexandrov" 135</li>
+								<li><a href="tel://+359885747606">+359 885 747 606</a></li>
+								<li><a href="mailto:contact@centralwesthotel.com">contact@centralwesthotel.com</a></li>
+								<li><a href="https://centralwesthotel.com">centralwesthotel.com</a></li>
+							</ul>
+						</div>
 					</div>
-					<!--<div class="col-md-3">
-						<h4>Recents Blog Post</h4>
-						<ul class="colorlib-footer-links">
-							<li><a href="#">The Ultimate Packing List For Female Travelers</a></li>
-							<li><a href="#">How These 5 People Found The Path to Their Dream Trip</a></li>
-							<li><a href="#">A Definitive Guide to the Best Dining and Drinking Venues in the City</a></li>
-						</ul>
-					</div>-->
-
-					<div class="col-md-3 col-md-push-1" style="text-align: right;">
-						<h4>Contact Information</h4>
-						<ul class="colorlib-footer-links">
-							<li>1309 Sofia Center<br>bul. "Todor Alexandrov" 135</li>
-							<li><a href="tel://+359885747606">+359 885 747 606</a></li>
-							<li><a href="mailto:contact@centralwesthotel.com">contact@centralwesthotel.com</a></li>
-							<li><a href="https://centralwesthotel.com">centralwesthotel.com</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<p>
-							<small class="block">
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart3" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							</small>
-							<small class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-						</p>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<p>
+								<small class="block">
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart3" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								</small>
+								<small class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
 
 
 
