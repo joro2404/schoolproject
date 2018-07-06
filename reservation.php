@@ -151,6 +151,27 @@
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
 		?>
+		<div id="colorlib-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+
+						<h2 >Contact Information</h2>
+					</div>
+					<div class="col-md-10 col-md-offset-1 animate-box">
+						<div class="contacts">
+							<p style="font-size:16px;color: #4d79ff"><span><i class="icon-location-2"></i></span>1309 Sofia Center,<br>bul. "Todor Alexandrov" 135</p>
+							<p style="font-size:16px;color: #4d79ff"><span><i class="icon-phone3"></i></span> <a >+35988 574 7606</a></p>
+						</div>
+						<div class="contacts">
+							<p style="font-size:16px;color: #4d79ff"><span><i class="icon-paperplane"></i></span> <a >contact@centralwesthotel.com</a></p>
+							<p style="font-size:16px;color: #4d79ff"><span><i class="icon-globe"></i></span> <a>centralwesthotel.com</a></p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="gototop js-top">
