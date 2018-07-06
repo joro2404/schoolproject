@@ -151,7 +151,7 @@
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
 		?>
-		<div id="colorlib-contact">
+		<div id="colorlib-contact" style="margin-top: 50px">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 animate-box">
