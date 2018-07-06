@@ -85,6 +85,16 @@
 	tr {
 		margin-bottom: 20px;
 	}
+	table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+	}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
 	</style>
 
 	</head>
@@ -139,7 +149,7 @@
 				$to = $_GET["to"];
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
-				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:2%; margin-left:20%\">";
+				echo "<form action=\"reservation.php\"><br><div style=\"overflow-x:auto\"><table style=\"margin-top:2%; margin-left:10%\">";
 				echo "<tr><td>Check-in date </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Check-out date </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Adults </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
