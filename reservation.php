@@ -123,8 +123,8 @@ th, td {
 				</div>
 				<div class="icons">
 					<a href="https://www.facebook.com/centralwesthotelsofia/" target = "_blank"><img src = "./images/facebook.png"></a>
-					<a href="amenities.html"><img src="images/en_flag.png" style="width: 30px"></a>
-					<a href="amenitiesBG.html"><img src="images/bg-01.png" style="width: 30px"></a>
+					<a href="reservation.php"><img src="images/en_flag.png" style="width: 30px"></a>
+					<a href="reservationBG.php"><img src="images/bg-01.png" style="width: 30px"></a>
 				</div>
 			</div>
 			<div id="colorlib-logo">
