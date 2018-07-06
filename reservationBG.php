@@ -139,7 +139,7 @@
 				$to = $_GET["to"];
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
-				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:2%; margin-left:30%\">";
+				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:2%; margin-left:10%\">";
 				echo "<tr><td>Дата на пристигане </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Дата на заминаване </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Възрастни </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
