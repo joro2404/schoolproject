@@ -88,7 +88,7 @@
 	table {
     border-collapse: collapse;
     border-spacing: 0;
-    width: 50%;
+    width: 30%;
 	}
 
 th, td {
