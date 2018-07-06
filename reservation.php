@@ -91,6 +91,49 @@
 	<body>
 
 	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top">
+				<div>
+					<div>
+						<!--<div class="col-xs-4">
+							<p class="site">www.centralwesthotel.com</p>
+						</div>-->
+
+					<div style = "margin-top:-8px">
+							<div class="header_site" >www.centralwesthotel.com</div>
+							<ul class="about">
+								<li><a href ="./contact.html#about-us">About us</a></li>
+								<li><a href ="./contact.html#reach">How to reach us</a></li>
+								<li><a href ="https://www.tripadvisor.com/Attractions-g294452-Activities-c47-Sofia_Sofia_Region.html" target="_blank">Landmarks</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="icons">
+					<a href="https://www.facebook.com/centralwesthotelsofia/" target = "_blank"><img src = "./images/facebook.png"></a>
+					<a href="amenities.html"><img src="images/en_flag.png" style="width: 30px"></a>
+					<a href="amenitiesBG.html"><img src="images/bg-01.png" style="width: 30px"></a>
+				</div>
+			</div>
+			<div id="colorlib-logo">
+				<a href="index.php"><img src = "./logo.png" style="width:100%;height:100%;margin-bottom: 20px auto 0 auto"></a>
+			</div>
+			<div class="top-menu">
+				<div class="container">
+						<div class="col-xs-10 tex-right menu-1">
+							<ul class="links">
+								<li><a href ="./index.php" style = "word-spacing: 10px;font-size: 20px">Home</a></li>
+								<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
+								<li><a href="./amenities.html" style = "word-spacing: 10px;font-size: 20px">Аmenities</a></li>
+								<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
+								<li><a href="./contact.html" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
+							</ul>
+						</div>
+				</div>
+			</div>
+		</nav>
 		<?php
 				$from = $_GET["from"];
 				$to = $_GET["to"];
@@ -108,6 +151,8 @@
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Send</td></tr>";
 				echo "</table></form>";
 		?>
+	</div>
+
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
