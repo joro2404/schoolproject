@@ -85,6 +85,19 @@
 	tr {
 		margin-bottom: 20px;
 	}
+	table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+	}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
 	</style>
 
 	</head>
@@ -139,7 +152,7 @@
 				$to = $_GET["to"];
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
-				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:2%; margin-left:10%\">";
+				echo "<form action=\"reservation.php\"><br><div style=\"overflow-x:auto\"><table style=\"margin-top:2%; margin-left:10%\">";
 				echo "<tr><td>Дата на пристигане </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Дата на заминаване </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Възрастни </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
