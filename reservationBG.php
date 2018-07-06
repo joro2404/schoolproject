@@ -139,7 +139,7 @@
 				$to = $_GET["to"];
 				$adults = $_GET["adults"];
 				$children = $_GET["children"];
-				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:150px; margin-left:550px\">";
+				echo "<form action=\"reservation.php\"><br><table style=\"margin-top:2%; margin-left:50%\">";
 				echo "<tr><td>Дата на пристигане </td> <td><input type=\"text\" id=\"from_new\" value=\"$from\"></td></tr>";
 				echo "<tr><td>Дата на заминаване </td> <td><input type=\"text\" id=\"to_new\" value=\"$to\"></td></tr>";
 				echo "<tr><td>Възрастни </td> <td><input type=\"text\" id=\"adults_new\" value=\"$adults\"></td></tr>";
@@ -151,7 +151,7 @@
 				echo "<tr><td><button id=\"butt\" type=\"button\" onclick=\"send()\">Изпрати</td></tr>";
 				echo "</table></form>";
 		?>
-		<div id="colorlib-contact" >
+		<div id="colorlib-contact" style="margin-top:1%">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 animate-box">
