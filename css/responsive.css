@@ -37,7 +37,9 @@
     float:initial!important;
     text-align: center;
 }
-
+td{
+    display:block;
+}
 @media only screen and (min-width:800px) {
     .links{
         display:block;
@@ -45,6 +47,9 @@
         text-align:center;
         margin-top:50px!important;
         margin-left:220px!important;
+    }
+    td{
+        display:table-cell;
     }
     .contacts{
         text-align: initial;
