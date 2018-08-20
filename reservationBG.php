@@ -114,8 +114,8 @@ th, td {
 					<div style = "margin-top:-8px">
 							<div class="header_site" >www.centralwesthotel.com</div>
 							<ul class="about">
-								<li><a href ="./contact.html#about-us">За нас</a></li>
-								<li><a href ="./contact.html#reach">Как да стигнете</a></li>
+								<li><a href ="./contactBG.html#about-us">За нас</a></li>
+								<li><a href ="./contactBG.html#reach">Как да стигнете</a></li>
 								<li><a href ="https://www.tripadvisor.com/Attractions-g294452-Activities-c47-Sofia_Sofia_Region.html" target="_blank">Забележителности</a></li>
 							</ul>
 						</div>
