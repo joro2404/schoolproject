@@ -138,7 +138,7 @@ th, td {
 								<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Стаи</a></li>
 								<li><a href="./amenities.html" style = "word-spacing: 10px;font-size: 20px">Удобства</a></li>
 								<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Галерия</a></li>
-                                <li><a href="./reviewsBG.html" style = "word-spacing: 10px;font-size: 20px">Oтзиви</a></li>
+                                <li><a href="./reviewsBG.php" style = "word-spacing: 10px;font-size: 20px">Oтзиви</a></li>
 								<li><a href="./contact.html" style = "word-spacing: 10px;font-size: 20px">Контакти</a></li>
 							</ul>
 						</div>
