@@ -107,7 +107,7 @@
 				</div>
 			</div>
 		</nav>
-        <div id="disqus_thread"></div>
+        <div id="disqus_thread" style="margin-bottom: 30px; margin-top: 30px; margin-left: 30px ; margin-right: 40px "></div>
         <script>
 
         /**
