@@ -85,8 +85,8 @@
 				</div>
 				<div class="icons">
 					<a href="https://www.facebook.com/centralwesthotelsofia/" target = "_blank"><img src = "./images/facebook.png"></a>
-					<a href="index.php"><img src="images/en_flag.png" style="width: 30px"></a>
-					<a href="indexBG.php"><img src="images/bg-01.png" style="width: 30px"></a>
+					<a href="reviews.php"><img src="images/en_flag.png" style="width: 30px"></a>
+					<a href="reviewsBG.php"><img src="images/bg-01.png" style="width: 30px"></a>
 				</div>
 			</div>
 			<div id="colorlib-logo" >
