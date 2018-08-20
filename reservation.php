@@ -139,6 +139,8 @@ th, td {
 								<li><a href="./amenities.html" style = "word-spacing: 10px;font-size: 20px">Аmenities</a></li>
 								<li><a href="./gallery.html" style = "word-spacing: 10px;font-size: 20px">Gallery</a></li>
 								<li><a href="./contact.html" style = "word-spacing: 10px;font-size: 20px">Contact</a></li>
+								<li><a href ="./review.php" style = "word-spacing: 10px;font-size: 20px">Reviews</a></li>
+								<li><a href="./rooms.html" style = "word-spacing: 10px;font-size: 20px">Rooms</a></li>
 							</ul>
 						</div>
 				</div>
